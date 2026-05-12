@@ -1,0 +1,2 @@
+c:/Users/lengo/lab2-Potatoaim19/openapi.yaml:253:17 warning oas3-unused-component "Potentially unused component has been detected." https://meta.stoplight.io/docs/spectral/docs/reference/openapi-rules.md#oas3-unused-component
+c:/Users/lengo/lab2-Potatoaim19/openapi.yaml:413:17 warning oas3-unused-component "Potentially unused component has been detected." https://meta.stoplight.io/docs/spectral/docs/reference/openapi-rules.md#oas3-unused-component

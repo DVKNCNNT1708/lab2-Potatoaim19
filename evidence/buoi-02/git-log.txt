@@ -1,0 +1,2 @@
+ef82f2a Complete OpenAPI contract for AI Vision service
+f81e955 Initial commit

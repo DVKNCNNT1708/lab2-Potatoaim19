@@ -7,11 +7,21 @@ on:
 jobs:
   structure-check:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
 
-      - name: Check required files
+      # 🔥 FIX: luôn đảm bảo đang ở đúng root repo
+      - name: Debug workspace
         run: |
+          echo "PWD = $(pwd)"
+          ls -R .
+
+      - name: Check required files
+        working-directory: ${{ github.workspace }}
+        run: |
+          set -e
+
           test -f README.md
           test -f openapi.yaml
           test -f campus-spectral.yaml
